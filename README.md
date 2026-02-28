@@ -1,4 +1,4 @@
-# 🚖 Uber Trip Demand Forecasting using Machine Learning
+# 🚖 Uber Trip Demand using Machine Learning
 
 This project analyzes Uber trip demand and builds advanced machine learning models to forecast daily trip volume using operational and time-based features.
 
@@ -44,16 +44,33 @@ Features used:
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-Key analysis performed:
+The goal of EDA was to understand demand behaviour, supply patterns, and hidden trends before building ML models.
 
-• Daily trip demand trend  
-• Active vehicles trend  
-• Trips vs Active Vehicles relationship  
-• Weekday demand analysis  
-• Correlation heatmap  
-• 7-Day moving average trend  
+- Key Analysis Performed
 
-📁 Charts saved in **images/eda**
+### Demand & Trend Analysis
+- Daily trip demand trend visualization
+- 7-Day moving average to smooth volatility
+- Identification of demand spikes and seasonal patterns
+
+### Supply vs Demand Analysis
+- Active vehicles trend analysis
+- Trips vs Active Vehicles correlation analysis
+- Fleet utilization behaviour during peak demand
+
+### Time-Based Pattern Discovery
+- Weekday-wise demand distribution
+- Monthly demand comparison (Jan vs Feb)
+- Week-wise trend analysis for short-term seasonality
+
+### Correlation & Feature Insights
+
+- Correlation heatmap to identify important predictors
+- Strong relationship observed between trips and active vehicles
+- Time-based features proved highly predictive for forecasting
+
+📁 All EDA charts are saved in: **images/eda/**
+
 
 ---
 
